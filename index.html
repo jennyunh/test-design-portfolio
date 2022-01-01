@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML 5 Boilerplate</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- FONT STYLE -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ruda&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Carter+One&family=Overlock:wght@900&family=Stardos+Stencil&family=Trade+Winds&display=swap"
+        rel="stylesheet">
+
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cute+Font&family=East+Sea+Dokdo&family=Nanum+Pen+Script&family=Yeon+Sung&display=swap" rel="stylesheet">
+<!-- AOS ANIMATIONS -->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+        <!-- animate css -->
+        <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+
+</head>
+
+
+
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navBar" id="navbar">
+
+        <a href="" class="animate__animated animate__slow animate__fadeIn animate__delay-1s" id="logoButton">
+            
+            <!-- 
+            <svg id="logo" width="80" height="64" viewBox="0 0 80 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M32.6172 25.3618C32.6172 26.2645 32.5024 27.1825 32.2729 28.1157C32.0588 29.0337 31.7375 29.9899 31.3091 30.9844C30.896 31.9635 30.3835 32.9963 29.7715 34.0825C29.1595 35.1688 28.4634 36.3315 27.6831 37.5708C29.4425 36.4998 31.0413 35.5436 32.4795 34.7021C33.9329 33.8454 35.1646 33.134 36.1743 32.5679C36.2355 32.522 36.312 32.499 36.4038 32.499C36.5721 32.499 36.7404 32.5755 36.9087 32.7285C37.077 32.8662 37.1611 33.0422 37.1611 33.2563C37.1611 33.4399 37.0846 33.6388 36.9316 33.853C36.7939 34.0519 36.5415 34.2585 36.1743 34.4727C35.6847 34.7633 35.0728 35.1458 34.3384 35.6201C33.604 36.0791 32.7702 36.6146 31.8369 37.2266C30.9189 37.8385 29.9168 38.5117 28.8306 39.2461C27.7596 39.9805 26.6427 40.7531 25.48 41.564C24.3172 43.3387 23.055 45.1134 21.6934 46.8882C20.347 48.6629 18.9624 50.3612 17.5396 51.9829C16.132 53.62 14.7244 55.1346 13.3169 56.5269C11.894 57.9344 10.54 59.1507 9.25488 60.1758C7.95443 61.2161 6.74577 62.027 5.62891 62.6084C4.51204 63.2051 3.55583 63.5034 2.76025 63.5034C1.79639 63.5034 1.10026 63.3734 0.671875 63.1133C0.24349 62.8532 0.0292969 62.4784 0.0292969 61.9888C0.0292969 61.3921 0.297038 60.6577 0.83252 59.7856C1.3527 58.9289 2.07943 57.9727 3.0127 56.917C3.93066 55.8766 5.02458 54.7598 6.29443 53.5664C7.54899 52.3883 8.91064 51.1644 10.3794 49.8945C11.8481 48.64 13.3934 47.3625 15.0151 46.062C16.6369 44.7769 18.2663 43.507 19.9033 42.2524C20.6071 41.1662 21.3032 40.0264 21.9917 38.833C22.6802 37.6396 23.3763 36.3774 24.0801 35.0464L27.5913 27.1978L15.2446 34.4727C15.1375 34.5339 15.0228 34.5645 14.9004 34.5645C14.7168 34.5645 14.5485 34.5033 14.3955 34.3809C14.2272 34.2585 14.1431 34.0902 14.1431 33.876C14.1431 33.7077 14.2272 33.5088 14.3955 33.2793C14.5485 33.0498 14.8315 32.8127 15.2446 32.5679C16.3003 31.9712 17.3101 31.3898 18.2739 30.8237C19.2378 30.2424 20.1787 29.6839 21.0967 29.1484L28.8765 24.6504C29.1366 24.4974 29.4655 24.375 29.8633 24.2832C30.2611 24.1761 30.6436 24.1226 31.0107 24.1226C31.4391 24.1226 31.8063 24.2144 32.1123 24.3979C32.4183 24.5815 32.5866 24.9028 32.6172 25.3618ZM3.35693 61.3232C3.75472 61.3232 4.40495 61.0861 5.30762 60.6118C6.21029 60.1375 7.29655 59.342 8.56641 58.2251C9.83626 57.1235 11.2515 55.6701 12.812 53.8647C14.3573 52.0594 15.979 49.8257 17.6772 47.1636C16.3462 48.1274 15.0457 49.0837 13.7759 50.0322C12.506 50.9961 11.305 51.9294 10.1729 52.832C9.02539 53.7347 7.96973 54.5915 7.00586 55.4023C6.04199 56.2285 5.21582 56.9782 4.52734 57.6514C3.82357 58.3398 3.28044 58.9442 2.89795 59.4644C2.50016 59.9845 2.30127 60.3976 2.30127 60.7036C2.30127 61.1167 2.65316 61.3232 3.35693 61.3232ZM34.7056 16.6182C34.7974 16.6182 34.9657 16.6258 35.2104 16.6411C35.4705 16.6411 35.7612 16.6564 36.0825 16.687C36.4038 16.7176 36.7404 16.7712 37.0923 16.8477C37.4442 16.9089 37.7655 17.0083 38.0562 17.146C38.3468 17.2684 38.5916 17.429 38.7905 17.6279C38.9894 17.8268 39.0965 18.0716 39.1118 18.3623L35.7842 20.8867L34.2695 21.5981C33.9941 21.5981 33.7799 21.5216 33.627 21.3687C33.474 21.2157 33.3592 21.055 33.2827 20.8867L34.7056 16.6182ZM40.9248 38.8789C40.9248 38.3587 40.9478 37.7926 40.9937 37.1807C41.0549 36.5534 41.1237 35.9032 41.2002 35.23C41.292 34.5415 41.3991 33.853 41.5215 33.1646C41.6439 32.4608 41.7739 31.7723 41.9116 31.0991L36.1743 34.4727C36.0213 34.5798 35.853 34.6333 35.6694 34.6333C35.4858 34.6333 35.3328 34.5721 35.2104 34.4497C35.0728 34.3273 35.0039 34.1743 35.0039 33.9907C35.0039 33.7765 35.0957 33.5547 35.2793 33.3252C35.4476 33.0804 35.7459 32.828 36.1743 32.5679L42.1411 28.8271C42.3859 28.1234 42.7378 27.1748 43.1968 25.9814C43.6558 24.7881 44.2218 23.4647 44.895 22.0112C45.5682 20.5578 46.3485 19.0202 47.2358 17.3984C48.1232 15.7767 49.1253 14.1702 50.2422 12.5791C51.359 10.988 52.583 9.47331 53.9141 8.03516C55.2451 6.58171 56.6833 5.3042 58.2285 4.20264C59.7891 3.10107 61.4567 2.229 63.2314 1.58643C65.0215 0.928548 66.9263 0.599609 68.9458 0.599609C70.6593 0.599609 72.151 0.722005 73.4209 0.966797C74.6908 1.19629 75.7388 1.52523 76.5649 1.95361C77.3911 2.382 78.0031 2.88688 78.4009 3.46826C78.814 4.03434 79.0205 4.65397 79.0205 5.32715C79.0205 6.38281 78.5615 7.49202 77.6436 8.65479C76.7409 9.80225 75.3869 10.9268 73.5815 12.0283L47.4653 28.1157L46.0884 36.9512C46.8687 36.4769 47.6489 36.0026 48.4292 35.5283C49.2095 35.0387 49.9438 34.5721 50.6323 34.1284C51.3361 33.6847 51.971 33.2793 52.5371 32.9121C53.1185 32.5296 53.5851 32.2083 53.937 31.9482C54.1053 31.7952 54.3271 31.6193 54.6025 31.4204C54.8932 31.2215 55.2145 31.0379 55.5664 30.8696C55.9336 30.7013 56.3237 30.556 56.7368 30.4336C57.1499 30.3112 57.5783 30.25 58.022 30.25C58.3433 30.25 58.6646 30.2882 58.9858 30.3647C59.3071 30.4259 59.5902 30.5789 59.835 30.8237C60.0951 31.0685 60.3016 31.4204 60.4546 31.8794C60.6229 32.3384 60.707 32.958 60.707 33.7383V39.6592C60.86 39.5674 61.1431 39.3991 61.5562 39.1543C61.9845 38.8942 62.4971 38.5882 63.0938 38.2363C63.6904 37.8844 64.3407 37.502 65.0444 37.0889C65.7635 36.6758 66.4826 36.2627 67.2017 35.8496L72.7554 32.5679C73.0767 32.3843 73.3521 32.2925 73.5815 32.2925C73.9334 32.2925 74.1094 32.4684 74.1094 32.8203C74.1094 33.0651 74.0023 33.3328 73.7881 33.6235C73.5892 33.8989 73.245 34.182 72.7554 34.4727C71.0724 35.4671 69.4583 36.4157 67.9131 37.3184C66.3831 38.221 64.9909 39.0243 63.7363 39.728C62.4971 40.4318 61.4414 41.0055 60.5693 41.4492C59.6973 41.8776 59.0853 42.1224 58.7334 42.1836C58.5651 42.2142 58.3892 42.2371 58.2056 42.2524C58.022 42.2677 57.8384 42.2754 57.6548 42.2754C57.104 42.2754 56.6527 42.1989 56.3008 42.0459C55.9642 41.9082 55.6965 41.717 55.4976 41.4722C55.314 41.2121 55.1839 40.9214 55.1074 40.6001C55.0462 40.2788 55.0156 39.9346 55.0156 39.5674C55.0156 39.2155 55.0768 38.8483 55.1992 38.4658C55.3369 38.068 55.4364 37.632 55.4976 37.1577L56.1401 32.1318C53.8299 33.7536 51.7186 35.1917 49.8062 36.4463C49.133 36.9818 48.4674 37.4943 47.8096 37.9839C47.1517 38.4735 46.5474 38.9095 45.9966 39.292C45.4611 39.6745 44.9945 39.9805 44.5967 40.21C44.1989 40.4242 43.9312 40.5312 43.7935 40.5312C43.5028 40.5312 43.1891 40.516 42.8525 40.4854C42.516 40.4548 42.2023 40.3859 41.9116 40.2788C41.6362 40.1564 41.3991 39.9881 41.2002 39.7739C41.0166 39.5444 40.9248 39.2461 40.9248 38.8789ZM47.8784 25.1782C49.8062 23.8778 51.8104 22.5391 53.8911 21.1621C55.9718 19.7699 58.0755 18.3929 60.2021 17.0312C62.3441 15.6696 64.4707 14.3385 66.582 13.0381C68.7087 11.7223 70.7741 10.4907 72.7783 9.34326C73.9411 8.47119 74.8361 7.66032 75.4634 6.91064C76.0907 6.16097 76.4043 5.48779 76.4043 4.89111C76.4043 4.12614 75.8229 3.52181 74.6602 3.07812C73.4974 2.61914 71.6538 2.38965 69.1294 2.38965C67.9513 2.38965 66.7733 2.61914 65.5952 3.07812C64.4172 3.52181 63.2544 4.13379 62.1069 4.91406C60.9748 5.69434 59.8732 6.6123 58.8022 7.66797C57.7313 8.70833 56.7139 9.8252 55.75 11.0186C54.7861 12.2119 53.8835 13.4512 53.042 14.7363C52.2005 16.0062 51.4355 17.2607 50.7471 18.5C50.0739 19.7393 49.4925 20.9326 49.0029 22.0801C48.5133 23.2275 48.1385 24.2603 47.8784 25.1782Z"
+                    fill="#5A5A5E" />
+            </svg> -->
+
+
+            <h2 id="logo">윤신</h2>
+        </a>
+
+        <div class="links animate__animated animate__slow animate__fadeIn animate__delay-1s" id="links">
+            <a href="" class="link">About</a>
+            <a href="" class="link"> Projects</a>
+            <a href="" class="link">Contact</a>
+        </div>
+    </nav>
+
+    <!--------------------------------------------------------->
+    <!--CONTENT BEGINS-->
+    <!--------------------------------------------------------->
+    <div id="content">
+
+
+        <!-- Introduction Section -->
+        <div class="intro">
+
+            <!-- INTRO TEXT -->
+            <div id="banner">
+                <div id="introText" class="animate__animated animate__slower animate__fadeIn">
+                    <h2>Hi, I'm Jenny.</h2>
+
+
+                    <h3>I am a Front-End Developer <br>
+                        and a UI/UX Designer from Vancouver, BC </h3>
+
+
+                <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+<lottie-player id="arrow" src="https://assets8.lottiefiles.com/packages/lf20_3cqizhb7.json"  background="transparent"  speed="1"  style="width: 200px; height: 200px;"  loop  autoplay></lottie-player>
+
+                </div>
+
+
+                <div id="forest" class="animate__animated animate__slow animate__fadeInUpBig">
+                   
+                    <!-- 
+                    <img class="scene rellax" data-rellax-speed="9" data-rellax-zindex="2"
+                        src="https://s.electerious.com/parallaxscene/p0.png">
+                          -->
+                    <img class="scene rellax" data-rellax-speed="8" data-rellax-zindex="3"
+                        src="https://s.electerious.com/parallaxscene/p1.png">
+                    <img class="scene rellax" data-rellax-speed="5" data-rellax-zindex="4"
+                        src="https://s.electerious.com/parallaxscene/p2.png">
+                    <img class="scene rellax" data-rellax-speed="4" data-rellax-zindex="5"
+                        src="https://s.electerious.com/parallaxscene/p3.png">
+                    <img class="scene rellax" data-rellax-speed="4" data-rellax-zindex="6"
+                        src="https://s.electerious.com/parallaxscene/p4.png">
+                </div>
+        
+            </div>
+
+        </div>
+
+
+<div class="rellax" data-rellax-speed="1" data-rellax-zindex="2" id="container1">
+
+        <div id="content1" class="animate__animated animate__slow">
+
+            <img id="mock1" class="offscreen rellax" data-rellax-speed="1" data-rellax-zindex="2" src="mock1.png"/>
+            <div id="project1" class="offscreen"><h2>The Keeper.</h2><br> A book-keeping app designed to make your life easy.</div>
+        </div>
+
+        <div id="content2" class="animate__animated animate__slow">
+
+            <img id="mock2" class="offscreen rellax" data-rellax-speed="1" data-rellax-zindex="2" src="mockup2.png" />
+            <div id="project2" class="offscreen">
+                <h1>Hwang's Kitchen</h1><br> A website re-design of Hwangs Kitchen, a Korean restaurant.
+            </div>
+        </div>
+
+
+        <div id="content3" class="animate__animated animate__slow">
+
+            <img id="mock3" class="offscreen rellax" data-rellax-speed="1" data-rellax-zindex="2" src="mock3.png" />
+            <div id="project3" class="offscreen">
+                <h1>Hwang's Kitchen</h1><br> A website re-design of Hwangs Kitchen, a Korean restaurant.
+            </div>
+        </div>
+    
+
+    
+    </div>
+        
+
+<div id="footer">
+
+    <div id="footerContent"> @2021 Design by Jenny Hwang</div>
+    <div id="footerContent">Email</div>
+    <div id="footerContent">LinkedIn</div>
+    <div id="footerContent">Instagram</div>
+</div>
+         
+     
+    </div>
+
+
+
+
+    <!-- YELLOW UP ARROW -->
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <lottie-player class="animate__animated hide" id="yellowArrow" src="https://assets3.lottiefiles.com/packages/lf20_odtgpm4o.json"
+        background="transparent" speed="1" style="width: 100px; height: 100px;" loop autoplay></lottie-player>
+
+
+
+
+
+
+
+
+
+
+    <!-- SCRIPT FOR RELLAX ANIMATION (parallax) -->
+    <script src="https://cdn.jsdelivr.net/gh/dixonandmoe/rellax@master/rellax.min.js"></script>
+    <script>
+        // Accepts any class name
+        var rellax = new Rellax('.rellax');
+    </script>
+
+    <!-- LOTTIE -->
+    <script src="https://unpkg.com/@lottiefiles/lottie-interactivity@latest/dist/lottie-interactivity.min.js"></script>
+
+                        <!-- j QUERY -->
+                        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+                        <!-- index.js -->
+                        <script src="./index.js"></script>
+
+                        <!-- AOS ANIMATIONS -->
+                        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+                        <script>
+                            AOS.init();
+                          </script>
+            
+</body>
+
+
+
+</html>
+
+
+<!-- COLORED MOUNTAIN 
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+<lottie-player id="coloredMountain"
+    src="https://assets4.lottiefiles.com/packages/lf20_y48zrfyp.json" background="transparent"
+    speed="1" style="width: 180px; height: 170px;" autoplay></lottie-player>
+
+-->
+
+<!-- UNUSED ANIMATED SVG'S -->
+<!-- PLANT -->
+<!-- 
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+<lottie-player src="https://assets2.lottiefiles.com/packages/lf20_1plcwvk5.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;"  loop  autoplay></lottie-player>
+-->
+
+<!-- Navy Mountains -->
+<!-- 
+                <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+                <lottie-player id="mountains" src="https://assets9.lottiefiles.com/packages/lf20_OFwCfF.json"
+                    background="transparent" speed="1" style="width: 300px; height: 300px;" loop autoplay>
+                </lottie-player>
+                 -->
+
+<!-- BLOB -->
+<!-- 
+       <script src="https://assets9.lottiefiles.com/packages/lf20_zfktc2tl.json"></script>
+            <lottie-player id="blob" src="https://assets9.lottiefiles.com/packages/lf20_zfktc2tl.json"
+                background="transparent" speed="1" style="width: 550px; height: 550px;" loop autoplay>
+            </lottie-player>
+             -->
+
+
+
+        <!--  
+            <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+            <lottie-player id="girl" src="https://assets3.lottiefiles.com/packages/lf20_kq2xgzlx.json"
+                background="transparent" speed="1" style="width: 580px; height: 580px;" autoplay loop></lottie-player> 
+                -->
+
+        <!-- White Mountain -->
+        <!-- 
+                <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+                <lottie-player id="mountain2" src="https://assets6.lottiefiles.com/packages/lf20_zg7qt8s2.json"
+                    background="transparent" speed="1" style="width: 420px; height: 420px;" loop autoplay>
+                </lottie-player>
+                -->
